@@ -1,0 +1,35 @@
+
+.headerContainer{
+    width: 100%;
+    height: auto;
+    background-color: burlywood;
+
+    display: flex;
+    justify-content:space-between;
+}
+
+.AppName{
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 20px;
+}
+
+.links{
+    display: flex;
+}
+
+.links div{
+    padding: 20px;
+}
+
+.links div a{
+    font-size: large;
+}
+.links div a:active{
+    background-color: brown;
+}
+
+/* header nav a{...}
+header nav a:active{
+    background: var(--primary)
+} */
